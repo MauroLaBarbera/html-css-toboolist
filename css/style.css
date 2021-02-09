@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
@@ -36,13 +37,22 @@ section {
 
 .toplist {
     padding: 15px;
-    border-bottom: 1px gray;
 }
 
 /* PULSANTI ADD */
 .add{
-    border: 1px solid black;
     vertical-align: middle;
     padding: 6px;
     border-radius: 5px;
+}
+
+.add-blue {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.add-opacity {
+    border: 1px solid lightgray;
+    margin-left: 10px;
+    color: lightgray;
 }
