@@ -6,10 +6,16 @@
 
 body {
     background-color: lightgray;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
 /* INTESTAZIONE */
 .head {
+    padding: 15px;
     background-color: white;
+}
+
+.logo {
+    vertical-align: middle;
 }
