@@ -7,12 +7,12 @@
 
 body {
     background-color: lightgray;
-    /* font-family: 'Quicksand', sans-serif; */
-    /* font-size: 18px; */
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 18px; 
 }
 
 
-/* INTESTAZIONE */
+/* HEADER */
 .head {
     padding: 15px;
     background-color: white;
@@ -23,7 +23,7 @@ body {
 }
 
 
-/* Conteiner */
+/* CONTAINER */
 .conteiner {
     width: 1170px;
     max-width: 1170px;
@@ -40,7 +40,7 @@ section {
     padding: 15px;
 }
 
-/* PULSANTI ADD */
+/* BUTTON ADD */
 .add{
     vertical-align: middle;
     padding: 6px;
@@ -62,13 +62,13 @@ section {
     margin-top: 25px;
 }
 
-/* INSERIMENTO LISTA */
+/* INSERTION LIST */
 li {
     list-style: none;
     margin: 15px 0px;
 }
 
-/* ICONA CHECK */
+/* ICON CHECK */
 .icon {
     display: inline-block;
     text-align: center;
@@ -82,6 +82,11 @@ li {
     color: green;
 }
 
+.icon-remove {
+    color: red;
+}
+
+/* Bookmarks */
 .mark {
     color: white;
     border-radius: 10px;
@@ -106,6 +111,10 @@ li {
     background-color: orange    ;
 }
 
-.icon-remove {
-    color: red;
+.mark-lime {
+    background-color: lime;
+}
+
+.mark-pink {
+    background-color: pink;
 }
